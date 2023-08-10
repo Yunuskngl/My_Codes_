@@ -1,4 +1,4 @@
-/*SOLUTİON: 
+/*SOLUTION: 
 
 //https://leetcode.com/problems/palindrome-number/description/
 
