@@ -1,6 +1,6 @@
 /*SOLUTION:
 
-//https://leetcode.com/problems/sqrtx/description/
+//https://leetcode.com/problems/sqrtx/description/c
 
 class Solution {
 public:
