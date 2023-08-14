@@ -24,11 +24,23 @@ class list{
                 Node* temp = begin();
                 while(temp->next != end()){
                     temp = temp ->next;
-                    temp ->next = new Node(value);
                 }
+                temp ->next = new Node(value);
             }
         }
+        void push_front(const int &value){
+            Node* temp = new Node(value);
+            temp ->next = root;
+            root = temp;
 
+        }
+        void print(){
+            Node* temp = begin();
+            while(temp !=  end()){
+            cout << temp->data << " ";
+            temp = temp->next;
+            }
+        }
 };
 
 int main(){
@@ -37,5 +49,9 @@ int main(){
     L.push_back(5);
     cout << L.isEmpty() << endl ;// dolu ise 0 değerini döndürür
     L.push_back(10);
+    L.push_back(3);
+    L.push_front(25);
+    L.print();
+    
 
 return 0;}
