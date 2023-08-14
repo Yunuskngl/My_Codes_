@@ -33,9 +33,9 @@ class list{
 
 int main(){
     list L;
-    cout << L.isEmpty() << endl ; 
+    cout << L.isEmpty() << endl ; // boş ise 1 değerini döndürür.
     L.push_back(5);
-    cout << L.isEmpty() << endl ;
+    cout << L.isEmpty() << endl ;// dolu ise 0 değerini döndürür
     L.push_back(10);
 
 return 0;}
