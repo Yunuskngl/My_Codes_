@@ -41,6 +41,21 @@ class list{
             temp = temp->next;
             }
         }
+        int front()const{
+            if(isEmpty())
+                throw "404";
+            return begin()->data;
+        }
+        int back()const{
+            if(isEmpty()) 
+                throw "404";
+            Node* temp = begin();
+            while(temp->next != end()){
+                temp = temp ->next;
+            }
+            return temp ->data;
+            
+        }
 };
 
 int main(){
@@ -50,8 +65,13 @@ int main(){
     cout << L.isEmpty() << endl ;// dolu ise 0 değerini döndürür
     L.push_back(10);
     L.push_back(3);
-    L.push_front(25);
+    L.push_front(25); //en ön sıraya ekleme yapar.
     L.print();
+    cout << endl;
+    cout << L.front(); // baştaki elemanı verir.
+    cout << endl;
+    cout << L.back(); //sondaki elemanı verir.
+
     
 
 return 0;}
