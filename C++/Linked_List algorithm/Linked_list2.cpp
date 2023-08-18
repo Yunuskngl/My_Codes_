@@ -54,7 +54,28 @@ class list{
                 temp = temp ->next;
             }
             return temp ->data;
-            
+        }
+        void pop_back(){
+        if(isEmpty()) throw "404";
+        if(begin()->next == end()){
+        delete root;
+        root = NULL;
+        }
+        else{
+        Node* temp = begin();
+        while(temp->next->next != end()){
+            temp = temp->next;
+        }
+        delete temp->next;
+        temp->next = end();
+            }
+        }
+        void pop_front(){
+            if(isEmpty()) throw "404";
+            Node* temp = root;
+            root = temp->next;
+            delete temp;
+
         }
 };
 
@@ -70,8 +91,17 @@ int main(){
     cout << endl;
     cout << L.front(); // baştaki elemanı verir.
     cout << endl;
-    cout << L.back(); //sondaki elemanı verir.
+    cout << L.back();//sondaki elemanı verir.
+    cout << endl; 
+    L.print();
+    cout << endl;
+    L.pop_back();//sondaki elemanı siler.
+    L.print();
+    L.pop_front();//baştaki elemanı siler.
+    cout << endl;
+    L.print();
+    
 
     
 
-return 0;}
+return 0;} 
