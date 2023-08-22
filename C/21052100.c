@@ -213,7 +213,6 @@ void decide_perfect_harmonic_number(int number)
         printf("\n");
         }
     }
-}
 
 void bmi_calculation()
 {
