@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // Bu soru yarıda kaldı.
 public:
     string longestCommonPrefix(vector<string>& strs) {
     unordered_map<char,int>mp;
