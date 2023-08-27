@@ -40,7 +40,7 @@ int checkwin(){
     else if(front[0][0] == 'X' && front[1][0] == 'X' && front[2][0] == 'X'){
         return 1;
     }
-    else if(front[0][1] == 'X' && front[1][1] == 'X' && front[2][1] == 'X'){
+    else if(front[0][1] == 'X' && front[1][1] == 'X' && front[1][2] == 'X'){
         return 1;
     }
     else if(front[0][2] == 'X' && front[1][2] == 'X' && front[2][2] == 'X'){
@@ -64,7 +64,16 @@ int checkwin(){
     else if(front[0][0] == 'O' && front[1][0] == 'O' && front[2][0] == 'O'){
         return 2;
     }
-    else if(front[0][1] == 'O' && front[1][1] == 'O' && front[2][1] == 'O'){
+    else if(front[0][1] == 'O' && front[1][1] == 'O' && front[1][2] == 'O'){
+        return 2;
+    }
+    else if(front[0][2] == 'O' && front[1][2] == 'O' && front[2][2] == 'O'){
+        return 2;
+    }
+    else if(front[0][0] == 'O' && front[1][1] == 'O' && front[2][2] == 'O'){
+        return 2;
+    }
+    else if(front[0][2] == 'O' && front[1][1] == 'O' && front[2][0] == 'O'){
         return 2;
     }
     return 0;
