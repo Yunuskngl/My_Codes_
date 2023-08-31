@@ -96,7 +96,7 @@ void after_starting(){
     do{
         printf("\nPLEASE ENTER VALUE LIKE THIS (column,row) (2,2 or 4 6):\n");
         scanf("%d,%d",&row,&column); fflush(stdin);
-        if(tabvalue[row][column] == -1){
+        if(tabvalue[column][row] == -1){
             game_over();
             flag = 1;        
             break;        
