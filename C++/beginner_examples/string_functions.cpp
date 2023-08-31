@@ -15,6 +15,6 @@ int main(){
     name2.swap(name); // bu fonksiyon ile name ve name2 değerlerini değiştiririz.
     name.erase(2,3); // 2 indexten başlayıp 3 karakter siler.
     name.find("Kn"); // bu "Kn" harfleri kaçıncı indexten başlıyor onu bulur.
-    name.replace(0,3,"Zeynep"); //bu fonksiyonu kullanırsak ZeynepKngl olarak değiştiririz.
+    name.replace(0,4,"Zeynep"); //bu fonksiyonu kullanırsak ZeynepKngl olarak değiştiririz.
     
 }
