@@ -1,17 +1,31 @@
-#include <stdio.h>
+#include <iostream>
+#include <cmath> 
+using namespace std;
 
-
-
-void sum() {
-    std :: cout << "abscsadadasdas" << std :: endl;
-    printf("%d", 5);
-}
 int main() {
-    
-    std :: cout << "Hello World!" << std :: endl;
-    std :: cout << "Hello World!" ;
-    sum();
+    int n;
+    double x;
+    int a = 1;
+    double seri = 0;
+
+    cout << "pozitif tamsayı: ";
+    cin >> n;
+
+    cout << "reel sayı: ";
+    cin >> x;
+
+    for (int i = 2; i <= 2 * n; i += 2) {
+        seri += a /pow(x, i);
+        a += 2;
+    }
+
+    cout << "pozitif tamsayı: " << n << endl;
+    cout << "reel sayı: " << x << endl;
+    cout << "seri: " << seri << endl;
+
+
     return 0;
 }
+
 
 

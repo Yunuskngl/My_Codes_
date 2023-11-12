@@ -1,8 +1,11 @@
+//SOLUTION:
+
+//https://algoleague.com/problem/an-easy-magic-trick/detail
+
+/*
 #include <bits/stdc++.h>
 using namespace std;
 using ll =  long long;
-
-//https://algoleague.com/problem/an-easy-magic-trick/detail
 
 int main() {
 // write your code here
@@ -34,4 +37,4 @@ int main() {
     
 
 	return 0;
-}
+}*/

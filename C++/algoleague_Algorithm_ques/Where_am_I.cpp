@@ -1,9 +1,12 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long 
+//SOLUTİON: 
 
 //https://algoleague.com/problem/where-am-i/detail
 
+/*
+
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long  // her seferinde long long yazmamak için
 int main() {
 // write your code here
     ios_base::sync_with_stdio(0);
@@ -18,3 +21,4 @@ int main() {
     return 0;
     
 }
+*/

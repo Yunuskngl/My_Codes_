@@ -1,8 +1,10 @@
-#include <bits/stdc++.h>
-using namespace std;
+//SOLUTION:
 
 //https://algoleague.com/problem/usain-bolt/detail
 
+/*
+#include <bits/stdc++.h>
+using namespace std;
 int main() {
     int n;
     cin>>n;
@@ -21,3 +23,4 @@ int main() {
     cout<<sayac;
 	return 0;
 }
+*/
