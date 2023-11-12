@@ -35,7 +35,7 @@ int main()
   Reel sayi: 1.0
   Seri: 9.00 */
 
-/*
+
 #include <iostream>
 using namespace std;
 int main(){
@@ -50,10 +50,17 @@ int main(){
     {
         toplam += i / pow(x, i);
     }
+/*
+    while (n > 0)
+    {
+        toplam += 1 / pow(x, 2 * n);
+        n--;
+    }
+*/
     cout << "Seri: " << toplam << endl;
     return 0;
 }
-*/
+
 
 
 

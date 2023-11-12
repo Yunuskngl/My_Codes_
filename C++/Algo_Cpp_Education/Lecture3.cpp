@@ -1,41 +1,26 @@
 #include <iostream>
 using namespace std;
 
-/*FONKSIYONLAR :
 
-// Fonksiyon tanımlama ve çağırma
-void selamla() {
-    cout << "Merhaba! Nasilsiniz?" << endl;
-}
 
-// Parametre iletimi
-void toplama(int a, int b) {
-    int sonuc = a + b;
-    cout << "Toplam: " << sonuc << endl;
-}
 
-// Recursive fonksiyon
 int faktoriyel(int n) {
     if (n <= 1) {
         return 1;
     } else {
-        return n * faktoriyel(n - 1);
+        return n * faktoriyel(n-1);
     }
 }
 
 int main() {
-    selamla(); // Fonksiyon cagirma
+   
 
-    int x = 5, y = 7;
-    toplama(x, y); // Parametre iletimi
-
-    // Recursive fonksiyon cagirma
     int sayi = 5;
     cout << sayi << " sayisinin faktoriyeli: " << faktoriyel(sayi) << endl;
 
     return 0;
 }
-*/
+
 
 /*-------------------------------------------------------------------------------------------------------------------
 
