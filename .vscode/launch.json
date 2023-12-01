@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/Tic_Tac_Toe",
-      "program": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/Tic_Tac_Toe/build/Debug/outDebug"
+      "cwd": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/algoleague_Algorithm_ques",
+      "program": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/algoleague_Algorithm_ques/build/Debug/outDebug"
     }
   ]
 }
