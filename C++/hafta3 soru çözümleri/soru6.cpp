@@ -4,10 +4,10 @@ bool isAsal(int num, int i = 2) {
     if (num <= 2)
         return (num == 2);
     if (num % i == 0)
-        return false;
+        return 0;
     if (i * i > num)
-        return true;
-    return isAsal(num, i + 1);
+        return 1;
+    return isAsal(num, i + 1);   //0 1 
 }
 void listeleAsal(int n, int current = 2) {
     if (current <= n) {
@@ -23,5 +23,5 @@ int main() {
     cin >> N;
     cout << "1 ile " << N << " arasindaki asal sayilar:\n";
     listeleAsal(N);
-    return 0;
+    return 1;
 }
