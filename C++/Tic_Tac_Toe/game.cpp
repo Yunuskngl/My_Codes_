@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 char front[3][3] = {{'1', '2', '3'},
                   {'4', '5', '6'},
