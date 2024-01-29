@@ -19,8 +19,20 @@ while True:
 #--------------------------------------------------------
 
 #find divisors of a number
+import numpy as np
 
-def 
+def divisors(num):
+    arr = np.array([1])
+    for i in range(2, num):
+        if num % i == 0:
+            arr = np.append(arr, i)
+    
+    return arr
+
+a = int(input("input a number: "))
+result = divisors(a)
+print(result)
+
 
 
 
