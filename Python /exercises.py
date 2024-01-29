@@ -19,6 +19,9 @@ while True:
 #--------------------------------------------------------
 
 #find divisors of a number
+
+"""
+
 import numpy as np
 
 def divisors(num):
@@ -35,4 +38,8 @@ print(result)
 
 
 
+"""
+
+
+#--------------------------------------------------------
 
