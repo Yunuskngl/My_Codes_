@@ -21,5 +21,22 @@ print(araba1.silindir)
 """
 
 
+"""
+class Araba():
+    def __init__(self,model = "Bilgi yok", colour = "Bilgi yok" ,horsePower = 70 , silindir = 4):
+        self.model = model
+        self.colour = colour
+        self.horsePower = horsePower
+        self.silindir = silindir
+        
+    
+araba1 = Araba("MERCEDES-BENZ","Mavi",900,8)
 
-class Araba()
+print(araba1.model)
+print(araba1.horsePower)
+print(araba1.colour)
+print(araba1.silindir)
+        
+        
+        
+"""
