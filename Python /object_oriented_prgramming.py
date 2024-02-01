@@ -22,6 +22,7 @@ print(araba1.silindir)
 
 
 """
+#bu şekilde fonksiyonlu yaparız.
 class Araba():
     def __init__(self,model = "Bilgi yok", colour = "Bilgi yok" ,horsePower = 70 , silindir = 4):
         self.model = model
