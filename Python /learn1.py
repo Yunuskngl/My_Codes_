@@ -1,0 +1,1 @@
+print(type(9))print(type(9.2))print(type("asdadasdas"))print(type('c'))   #type fonksiyonu girilen değişkenin tipini verir.print("hello world")
