@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/Algo_Cpp_Education",
-      "program": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/Algo_Cpp_Education/build/Debug/outDebug"
+      "cwd": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/leetcode_Algorithms",
+      "program": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/leetcode_Algorithms/build/Debug/outDebug"
     }
   ]
 }
