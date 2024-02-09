@@ -7,7 +7,6 @@ class TreeNode {
     TreeNode* left;             
     TreeNode* right;
     TreeNode(int value=0,TreeNode* left = NULL , TreeNode* right = NULL ) : value(value) ,left(left) ,right(right) {}
-
 };
   
 class BinaryTree{                // Binary Tree yapısı.
@@ -23,6 +22,4 @@ int main(){
     cout << btree.isEmpty() << endl;
     cout << btree.getRoot() << endl;
 
-    return 0;
-    
-}
+return 0;}
