@@ -14,9 +14,9 @@ class BinaryTree{
     BinaryTree() : root(NULL) {}
     bool isEmpty() const{   return root == NULL;    }
     TreeNode* getRoot()  const{    return root;     }
-    int height(TreeNode* Node){
+    int height(TreeNode* Node){                           //Uzunluk(height) bulmamızı sağlar.
         if(Node){
-            int left = height(Node->left);     
+            int left = height(Node->left);                //recursive fonksiyon kullanıyoruz.
             int right = height(Node->right);
             return 1 + max(left,right);
         }
@@ -34,6 +34,6 @@ int main(){
     root->right->right = new TreeNode(17);
     root->right->right->left = new TreeNode(18);
     BinaryTree tree;
-    cout << tree.height(root) << endl;
+    cout << tree.height(root->right) << endl;
 
 }
