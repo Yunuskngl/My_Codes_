@@ -29,11 +29,12 @@ class BinaryTree{
 int main(){
     TreeNode* root;
     root = new TreeNode(20);
+   
     root->left = new TreeNode(10);
     root->right = new TreeNode(15);
     root->right->right = new TreeNode(17);
     root->right->right->left = new TreeNode(18);
     BinaryTree tree;
-    cout << tree.height(root->right) << endl;
+    cout << tree.height(root) << endl;
 
 }

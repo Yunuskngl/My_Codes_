@@ -28,8 +28,6 @@ class Binarytree{
             //  tasarım tercihidir ve bu özel durumu uygun şekilde ele almak için çağırma kodunun sorumluluğundadır.           
         
     }
-
-
 };
 
 int main(){

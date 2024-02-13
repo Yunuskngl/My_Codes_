@@ -10,15 +10,19 @@ class TreeNode {
 };
   
 class BinaryTree{                // Binary Tree yapısı.
-    TreeNode* root ;
+    TreeNode* root = new TreeNode(1);
     public :  
         BinaryTree() : root(NULL){    }
+        
         bool isEmpty() const{   return root == NULL;    }     // root değeri boş ise bool fonksiyonu ile 1 değerini verir . eğer boş değilse 0 verir.
+        
+        
         TreeNode* getRoot() const{  return root;    }         // root değerini verir.  
 };
 
 int main(){
     BinaryTree btree ; 
+   
     cout << btree.isEmpty() << endl;
     cout << btree.getRoot() << endl;
 
