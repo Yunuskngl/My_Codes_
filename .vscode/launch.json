@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": ".",
-      "program": "build/Debug/outDebug"
+      "cwd": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/BOOTCAMP",
+      "program": "/Users/yunuskangal/Documents/GitHub/My_Codes_/C++/BOOTCAMP/build/Debug/outDebug"
     }
   ]
 }
