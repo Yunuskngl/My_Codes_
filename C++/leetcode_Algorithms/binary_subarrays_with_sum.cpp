@@ -1,4 +1,8 @@
-class Solution {
+//SOLUTION:
+
+//https://leetcode.com/problems/binary-subarrays-with-sum/
+
+/*class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
         int n = nums.size();
@@ -12,4 +16,4 @@ public:
         }
         return ans;
     }
-};
+};*/
