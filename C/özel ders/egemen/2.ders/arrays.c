@@ -3,7 +3,7 @@
 
 int main()
 {
-    //ARRAYS          
+    //ARRAYS       =  dizi     
     int numbers[5] = {121312, 2213213, 31232135, 4213123,3125};  //5*4byte  = 20 byte yer kaplar
     char letters[5] = {'A', 'B', 'C', 'D', 'E'};  //5*1byte = 5 byte yer kaplar
     float decimals[5] = {1.1, 2.2, 3.3, 4.4, 5.5};  //5*4byte = 20 byte yer kaplar

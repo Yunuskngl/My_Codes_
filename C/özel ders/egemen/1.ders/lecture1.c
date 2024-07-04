@@ -11,11 +11,11 @@ int main() {
     char ch = 'A';  // Karakter değişkeni. 1 byte yer kaplar. 
   
 
-/*
+
    
    
     printf("num1: %d\n", num1); // Standart çıkış fonksiyonu. Ekrana yazdırma işlemi yapar.
-    printf("num2: %f\n", num2); 
+  /*  printf("num2: %f\n", num2); 
     printf("num3: %lf\n", num3);
     printf("ch: %c\n", ch);
    

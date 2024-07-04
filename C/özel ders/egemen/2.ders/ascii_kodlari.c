@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main()
-{/*
+{
     //ASCII KODLARI
     char ch = 'A';  //ASCII kodu 65
     printf("%d\n", ch);
@@ -19,7 +19,7 @@ int main()
     char ch5 = '\n';  //ASCII kodu 10
     printf("%d\n", ch5);
 
-*/
+
     //ASCII KODLARINI KULLANARAK BİR DİZİYİ YAZDIRMA
 
     for (int i = 65; i <= 90; i++)

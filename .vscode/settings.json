@@ -60,6 +60,8 @@
   "files.associations": {
     "vector": "cpp",
     "stdlib.h": "c",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "ratio": "cpp"
   }
 }

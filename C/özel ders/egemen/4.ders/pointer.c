@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 int main(){
-    /*int sayi = 5;
+    int sayi =10;
+
+
+
     int *a;  //pointer,  belleğe erişimimiz kolay. bellek ile alakalı işlemler yaparken
                 // bize çok kolaylık sağlıyor.
 
@@ -12,7 +15,6 @@ int main(){
     printf("%d\n",a);
     printf("%d\n",sayi);
     printf("%d",&sayi);
-*/
 
     int *ptr ; 
     int b;  

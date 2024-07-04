@@ -146,3 +146,18 @@ end
 Bu kod, verilen diferansiyel denklemleri çözer, fix pointleri hesaplar, kararlılık analizi yapar, zaman serilerini ve faz uzayını çizer, gecikme zamanını ve gömme boyutunu hesaplar, Lyapunov exponentleri hesaplar ve J matrisini hesaplar. Kodu çalıştırarak sonuçları görebilirsiniz.
 
 
+
+
+/*
+U1(x) = [- 0.1692*x - 4.87]*10^-9
+ 
+U2(x) = - 0.08433*x*10^-9 - 4.903*10^-9
+ 
+U3(x) = 12.47*x*10^-9- 17.46*10^-9
+ grafiklerini çizmek için matlab kodu yazar mısın
+*/
+
+
+
+
+

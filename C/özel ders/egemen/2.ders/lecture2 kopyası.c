@@ -11,38 +11,33 @@ int main() {
 
     int sum  = 10;
 
-
-
-  
-
-
-   
-
-/*
     //switch case yapısı 
     switch (ch) {
         case 'A':
             printf("A harfi girildi.\n");
+            break;
             
         case 'B':
             printf("B harfi girildi.\n");
+            break;
             
         case 'C':
             printf("C harfi girildi.\n");
+            break;
             
         default:
             printf("A, B ve C harflerinden farklı bir harf girildi.\n");
-    }*/
+    }
 
     //break yapısı 
-/*
+
     for (int i = 1; i <= 10; i++) {
 
         
         printf("%d\n", i);
         if (i ==5) {break;}
     }
-  */ 
+  
     //continue yapısı
     for(int i = 1; i <= 10; i++) {
         if (i == 5) {continue;}
