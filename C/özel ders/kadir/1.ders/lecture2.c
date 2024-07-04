@@ -1,8 +1,6 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
 int main() {
     int num1 = 5;
     float num2 = 3.5; 
@@ -10,14 +8,6 @@ int main() {
     char ch = 'A';
 
     int sum  = 10;
-
-
-
-  
-
-
-   
-
 /*
     //switch case yapısı 
     switch (ch) {
@@ -53,10 +43,5 @@ int main() {
     bool x=true;
 
     printf("%d",x);
-
-
-
     return 0;
-
-
 }
