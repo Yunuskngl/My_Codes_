@@ -62,6 +62,7 @@
     "stdlib.h": "c",
     "ostream": "cpp",
     "iostream": "cpp",
-    "ratio": "cpp"
+    "ratio": "cpp",
+    "iosfwd": "c"
   }
 }
