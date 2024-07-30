@@ -48,7 +48,7 @@ typedef struct _IMAGE
     BYTE *data;
 } IMAGE;
 
-IMAGE *ImageRead(IMAGE *image, const char *filename)
+IMAGE *ImageRead(IMAGE *image, char *filename)
 {
     BMPFH bmpfh;
     BMPIH bmpih;
@@ -85,7 +85,7 @@ IMAGE *ImageRead(IMAGE *image, const char *filename)
     return image;//returns the address of image on the memory
 }
 
-void ImageWrite(IMAGE *image, const char *filename)
+void ImageWrite(IMAGE *image, char *filename)
 {
     FILE *fp;
     int r, rowsize, size;
@@ -108,7 +108,7 @@ void ImageWrite(IMAGE *image, const char *filename)
     fclose(fp);//closes the file 
 }
 
-void writeInfo(IMAGE *image, const char *fname)
+void writeInfo(IMAGE *image, char *fname)
 {
     printf("--------Info about %s image file\n", fname);
     printf("bfType value        :%c%c\n", image->bmpfh.bftype1, image->bmpfh.bftype2);
@@ -183,10 +183,10 @@ IMAGE *ConvertToGrayScale(IMAGE *image)
 int main()
 {
     IMAGE *image = (IMAGE *)malloc(sizeof(IMAGE));
-    image = ImageRead(image, "parrots.bmp");
+    image = ImageRead(image, "/mnt/data/lena_color.bmp");
 
     IMAGE *grayImage = ConvertToGrayScale(image);
-    ImageWrite(grayImage, "parrots_gray.bmp");
+    ImageWrite(grayImage, "gray_lena.bmp");
 
     free(image->data);
     free(image->palet);
