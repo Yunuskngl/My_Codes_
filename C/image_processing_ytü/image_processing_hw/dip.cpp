@@ -1,4 +1,4 @@
-#include <conio.h>
+#include <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -186,9 +186,9 @@ int main() {
     free(grayImage->data);
     free(grayImage->palet);
     free(grayImage);
-
+    writeInfo(image, "parrots.bmp");
     printf("Press any key to exit...");
-    getch();
+    
 
     return 0;
 }
