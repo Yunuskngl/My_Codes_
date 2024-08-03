@@ -49,7 +49,7 @@ void create_mines(){
 				for(k = -1;k<2;k++){
 					for(p = -1;p<2;p++){
 						if(tabvalue[i+k][j+p]!=-1){
-                            tabvalue[i+k][j+p]++;
+                            tabvalue[i+k][j+p]++;     
                         }
             		}
 				}

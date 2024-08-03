@@ -1,30 +1,34 @@
-class Solution {
+//SOLUTION:
+
+//https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/discuss/303755/C%2B%2B-O(n)-Sliding-Window
+
+/*class Solution {
 public:
     int minSwaps(vector<int>& nums) {
         int n = nums.size();
-        int ones = 0;
-        for(int i = 0; i < n; i++) {
-            if(nums[i] == 1) {
-                ones++;
-            }
+        if(n==1) return 0;
+        int cnt = 0;
+        for(auto it:nums) if(it) cnt++;
+        int present = 0;
+        int l=0,r=0;
+        for( r=0;r<cnt;r++)
+        {
+            if(nums[r]==1) present++;
+            
         }
-        if(ones == 0) {
-            return 0;
+        
+        for(int i=0;i<cnt-1;i++) nums.push_back(nums[i]);
+        int ans  = INT_MAX;
+        ans = min(ans,cnt-present);
+        while(r<nums.size())
+        {
+            if(nums[r]==1)present+=1;
+            if(nums[l]==1) present-=1;
+            l++;
+            r++;
+            ans = min(ans,cnt-present);
         }
-        int left = 0, right = 0;
-        int maxOnes = 0;
-        for(int i = 0; i < n; i++) {
-            if(i < ones) {
-                if(nums[i] == 1) {
-                    left++;
-                }
-            } else {
-                if(nums[i] == 1) {
-                    right++;
-                }
-            }
-            maxOnes = max(maxOnes, right);
-        }
-        return ones - maxOnes;
+       
+        return ans;
     }
-};
+};*/

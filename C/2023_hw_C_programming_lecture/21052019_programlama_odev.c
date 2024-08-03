@@ -20,8 +20,8 @@ struct Name{
     int votes;
     double rating;
     char **genre;
-    char *title;
-    char **directors;
+    char *title;      
+    char **directors;   
     char *mustsee;
     char *url;
     
