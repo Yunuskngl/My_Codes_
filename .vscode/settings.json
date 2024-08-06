@@ -63,6 +63,8 @@
     "ostream": "cpp",
     "iostream": "cpp",
     "ratio": "cpp",
-    "iosfwd": "c"
+    "iosfwd": "c",
+    "limits": "cpp",
+    "algorithm": "cpp"
   }
 }
